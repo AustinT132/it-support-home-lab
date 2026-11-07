@@ -12,6 +12,8 @@ The goal of this lab is to strengthen my knowledge of:
 
 ## Lab Diagram
 
+![My Lab Diagram](./images/lab-diagram.png)
+
 ## Lab Setup
 
 - **Domain Controller (DC)**: Windows Server 2022
