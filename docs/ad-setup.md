@@ -11,3 +11,9 @@
 - Assign Static IP for Internal Network: 172.16.0.1
 - Install **Active Directory Domain Services** and promote the server to a Domain Controller for the root domain
 
+## 2) Admin Setup
+
+![Created Admin Account](../images/user-admin.png)
+
+- Created an **_ADMIN_** organizational unit (OU)
+- Added a new admin user account
