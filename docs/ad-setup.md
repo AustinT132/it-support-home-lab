@@ -15,5 +15,7 @@
 
 ![Created Admin Account](../images/user-admin.png)
 
+![Update User Privileges](../images/domain-admin.png)
+
 - Created an **_ADMIN_** organizational unit (OU)
 - Added a new admin user account
