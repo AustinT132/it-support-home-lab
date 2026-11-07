@@ -19,4 +19,4 @@ The goal of this lab is to strengthen my knowledge of:
 - **Domain Controller (DC)**: Windows Server 2022
 - **Windows Client**: Windows 10
 - **Virtualization**: VMWare
-- **Domain**: mydomain.local
+- **Domain**: `mydomain.local`
