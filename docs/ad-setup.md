@@ -2,7 +2,7 @@
 
 ## 1) Domain Controller Setup
 
-![Server Adapter DHCP Setup](../../images/server-adapter-setup.png)
+![Server Adapter DHCP Setup](../images/Server-Adapter-Setup.png)
 
 - Install Windows Server 2022 in VMWare
 - Congifure Networks
