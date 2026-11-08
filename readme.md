@@ -20,3 +20,18 @@ The goal of this lab is to strengthen my knowledge of:
 - **Windows Client**: Windows 10
 - **Virtualization**: VMWare
 - **Domain**: `mydomain.local`
+
+
+## Key Configurations
+
+- Installed AD DS and promote to a Domain Controller
+- Created **Organizational Units** to create _USER and _ADMIN
+- Configured DHCP lease from `172.16.0.100 - 172.16.0.200`
+- Joined **Windows 10 Client Machine** to the domain
+
+
+## Key Takeaways
+
+- Built and configured an **Active Directory** from scratch
+- Learned how **DNS, DHCP, and NAT** integrated into the environment
+- Successfully **joined and authenticated a client machine** within the domain
