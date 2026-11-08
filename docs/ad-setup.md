@@ -33,7 +33,7 @@
 
 ## 4) Create Client Users
 
-1[AD Users](../images/ad-users.png)
+![AD Users](../images/ad-users.png)
 
 - Created **_USERS** OU
 - Created 5 client users
