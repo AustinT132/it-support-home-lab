@@ -19,3 +19,13 @@
 
 - Created an **_ADMIN_** organizational unit (OU)
 - Added a new admin user account
+
+
+## 3) Network Services
+
+![Network Scope](../images/router-scope.png)
+
+- Installed **Routing and Remote Access** for connectively for clients
+- Install and Configured DHCP Server
+- **Scope**: `172.0.0.100 - 172.0.0.200`
+
