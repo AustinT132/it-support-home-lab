@@ -27,7 +27,7 @@
 
 - Installed **Routing and Remote Access** for connectively for clients
 - Install and Configured DHCP Server
-- **Scope**: `172.0.0.100 - 172.0.0.200`
+- **Scope**: `172.16.0.100 - 172.16.0.200`
 - Authorized DC as DHCP
 
 
