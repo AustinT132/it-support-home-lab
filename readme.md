@@ -16,7 +16,7 @@ The goal of this lab is to strengthen my knowledge of:
 
 ## Lab Setup
 
-- **Domain Controller (DC)**: Windows Server 2022
+- [**Domain Controller (DC)**: Windows Server 2022](./docs/ad-setup.md)
 - **Windows Client**: Windows 10
 - **Virtualization**: VMWare
 - **Domain**: `mydomain.local`
