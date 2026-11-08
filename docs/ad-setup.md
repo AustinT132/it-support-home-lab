@@ -28,4 +28,12 @@
 - Installed **Routing and Remote Access** for connectively for clients
 - Install and Configured DHCP Server
 - **Scope**: `172.0.0.100 - 172.0.0.200`
+- Authorized DC as DHCP
 
+
+## 4) Create Client Users
+
+1[AD Users](../images/ad-users.png)
+
+- Created **_USERS** OU
+- Created 5 client users
