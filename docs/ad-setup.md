@@ -23,7 +23,7 @@
 
 ## 3) Network Services
 
-![Network Scope](../images/router-scope.png)
+![Network Scope](../images/network-scope.png)
 
 - Installed **Routing and Remote Access** for connectively for clients
 - Install and Configured DHCP Server
