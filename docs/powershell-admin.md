@@ -20,6 +20,7 @@ Successfully confirmed the Active Directory Module was installed on the Domain C
 ## Retrieve Active Directory Users
 
 Displays all user accounts in Active Directory
+
 **COMMAND**: `Get-ADUser -Filter *`
 
 ![]()
@@ -33,6 +34,7 @@ Successfully retrieved domain users from Active Directory
 ## Retrieve Specific User Information
 
 Retrieve detailed account information for a specific user
+
 **COMMAND**: `Get-ADUser a.todd -Properties *`
 
 ![]()
@@ -47,6 +49,7 @@ Verified account properties and user status
 ## Created New User Account
 
 Create a new Active Directory user account through PowerShell
+
 **COMMAND**: 
 `New-ADUser 
 -Name "John Smith" 
@@ -67,6 +70,7 @@ Successfully created and enabled a new domain user
 ## Disable User Account
 
 Disable a user account 
+
 **COMMAND**: `Disable-ADAccount -Identity j.smith`
 
 ![]()
@@ -80,6 +84,7 @@ Successfully disabled the selected account
 ## Enable User Account
 
 Re-enable a disabled account
+
 **COMMAND**: `Enable-ADAccount -Identity j.smith`
 
 ![]()
@@ -93,6 +98,7 @@ Successfully restored account access
 ## Unlock Locked User Account
 
 Unlock a user account that has been locked due to failed login attempts
+
 **COMMAND**: `Unlock-ADAccount -Identity j.smith`
 
 ![]()
@@ -106,6 +112,7 @@ Successfully unlocked the account
 ## Reset User Password
 
 Reset a user's password using PowerShell
+
 **COMMAND**: 
 Set-ADAccountPassword 
 -Identity jsmith 
@@ -123,6 +130,7 @@ Successfully updated user credentials
 ## Add User to Security Group
 
 Assign a user to a security group
+
 **COMMAND**:
 `Add-ADGroupMember
 -Identity "IT-Group"
@@ -139,6 +147,7 @@ Successfully added the account to the designated group
 ## Remove User from Security Group
 
 Remove a user from a security group
+
 **COMMAND**:
 `Remove-ADGroupMember
 -Identity "GG_Standard_Users"
@@ -155,6 +164,7 @@ Successfully removed the account from the group
 ## Review Group Membership
 
 Display all security groups assigned to a user
+
 **COMMAND**: `Get-ADPrincipalGroupMembership j.smith`
 
 ![]()
