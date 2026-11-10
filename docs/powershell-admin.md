@@ -6,6 +6,7 @@ The goal is to learn how PowerShell can be used for common automated tasks, redu
 ## Verify Active Directory
 
 Before Managing Active Directory through PowerShell, verify that the AD module is available.
+
 **COMMAND**: `Get-Module -ListAvailable ActiveDirectory`
 
 ![]()
