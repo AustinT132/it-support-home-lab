@@ -14,6 +14,7 @@ Before Managing Active Directory through PowerShell, verify that the AD module i
 ### Result
 
 Successfully confirmed the Active Directory Module was installed on the Domain Controller
+***
 
 
 
