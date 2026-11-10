@@ -47,3 +47,11 @@ This policy configured account lockout protections against brute-force authentic
 ### Purpose
 
 This policy reduces the risk of unauthorized system changes by end users.
+
+
+
+## Key Takeaways
+
+- Gained hands-on experience creating and managing Group Policy Objects (GPOs)
+- Demonstrated security filtering and OU-based policy targeting
+- Developed practical experience through Group Policy Administration and Active Directory
