@@ -25,9 +25,8 @@ Displays all user accounts in Active Directory
 
 ![]()
 
-### Result
 
-Successfully retrieved domain users from Active Directory
+- Successfully retrieved domain users from Active Directory
 
 
 
@@ -39,9 +38,8 @@ Retrieve detailed account information for a specific user
 
 ![]()
 
-### Result
 
-Verified account properties and user status
+- Verified account properties and user status
 
 
 
@@ -61,9 +59,8 @@ Create a new Active Directory user account through PowerShell
 -AccountPassword (ConvertTo-SecureString "P@ssword123!" -AsPlainText -Force) 
 -Enabled $true`
 
-### Result
 
-Successfully created and enabled a new domain user
+- Successfully created and enabled a new domain user
 
 
 
@@ -75,9 +72,8 @@ Disable a user account
 
 ![]()
 
-### Result
 
-Successfully disabled the selected account
+- Successfully disabled the selected account
 
 
 
@@ -89,9 +85,8 @@ Re-enable a disabled account
 
 ![]()
 
-### Result
 
-Successfully restored account access
+- Successfully restored account access
 
 
 
@@ -103,9 +98,8 @@ Unlock a user account that has been locked due to failed login attempts
 
 ![]()
 
-### Result
 
-Successfully unlocked the account
+- Successfully unlocked the account
 
 
 
@@ -121,9 +115,8 @@ Reset a user's password using PowerShell
 
 ![]()
 
-### Result 
 
-Successfully updated user credentials
+- Successfully updated user credentials
 
 
 
@@ -138,9 +131,8 @@ Assign a user to a security group
 
 ![]()
 
-### Result
 
-Successfully added the account to the designated group
+- Successfully added the account to the designated group
 
 
 
@@ -154,10 +146,9 @@ Remove a user from a security group
 -Members j.smith`
 
 ![]()
+ 
 
-### Result 
-
-Successfully removed the account from the group
+- Successfully removed the account from the group
 
 
 
@@ -169,9 +160,8 @@ Display all security groups assigned to a user
 
 ![]()
 
-### Result
 
-Verified group membership assignments
+- Verified group membership assignments
 
 
 
