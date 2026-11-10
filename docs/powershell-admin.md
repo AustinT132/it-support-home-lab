@@ -114,7 +114,7 @@ Successfully unlocked the account
 Reset a user's password using PowerShell
 
 **COMMAND**: 
-Set-ADAccountPassword 
+`Set-ADAccountPassword 
 -Identity jsmith 
 -Reset 
 -NewPassword (ConvertTo-SecureString "NewPassword123!" -AsPlainText -Force)`
