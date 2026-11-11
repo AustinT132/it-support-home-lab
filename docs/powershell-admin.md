@@ -120,6 +120,7 @@ Assign a user to a security group
 -Members j.smith`
 
 ![Add User to Security Group](../images/add-group-member.png)
+
 ![Verify Group Member](../images/verify-group.png)
 
 
