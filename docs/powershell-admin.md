@@ -9,7 +9,7 @@ Before Managing Active Directory through PowerShell, verify that the AD module i
 
 **COMMAND**: `Get-Module -ListAvailable ActiveDirectory`
 
-![]()
+![Verify AD](../images/verify-ad.png)
 
 
 - Successfully confirmed the Active Directory Module was installed on the Domain Controller
@@ -23,24 +23,12 @@ Displays all user accounts in Active Directory
 
 **COMMAND**: `Get-ADUser -Filter *`
 
-![]()
+![AD Users 1](../images/user-1.png)
+![AD Users 2](../images/user-2.png)
+![AD Users 3](../images/user-3.png)
 
 
 - Successfully retrieved domain users from Active Directory
-
-
-
-## Retrieve Specific User Information
-
-Retrieve detailed account information for a specific user
-
-**COMMAND**: `Get-ADUser a.todd -Properties *`
-
-![]()
-
-
-- Verified account properties and user status
-
 
 
 
@@ -59,6 +47,7 @@ Create a new Active Directory user account through PowerShell
 -AccountPassword (ConvertTo-SecureString "P@ssword123!" -AsPlainText -Force) 
 -Enabled $true`
 
+![Create New User Account](../images/user-add.png)
 
 - Successfully created and enabled a new domain user
 
@@ -70,7 +59,7 @@ Disable a user account
 
 **COMMAND**: `Disable-ADAccount -Identity j.smith`
 
-![]()
+![Disable User Account](../images/disable-user.png)
 
 
 - Successfully disabled the selected account
@@ -83,7 +72,7 @@ Re-enable a disabled account
 
 **COMMAND**: `Enable-ADAccount -Identity j.smith`
 
-![]()
+![Enable User Account](../images/enable-user.png)
 
 
 - Successfully restored account access
@@ -96,7 +85,8 @@ Unlock a user account that has been locked due to failed login attempts
 
 **COMMAND**: `Unlock-ADAccount -Identity j.smith`
 
-![]()
+![Unlock Locked User Account 1](../images/lockout-jsmith.png)
+![Unlock Locked User Account 2](../images/unlock-user.png)
 
 
 - Successfully unlocked the account
@@ -113,7 +103,7 @@ Reset a user's password using PowerShell
 -Reset 
 -NewPassword (ConvertTo-SecureString "NewPassword123!" -AsPlainText -Force)`
 
-![]()
+![Reset Password](../images/reset-password.png)
 
 
 - Successfully updated user credentials
@@ -129,7 +119,8 @@ Assign a user to a security group
 -Identity "IT-Group"
 -Members j.smith`
 
-![]()
+![Add User to Security Group](../images/add-group-member.png)
+![Verify Group Member](../images/verify-group.png)
 
 
 - Successfully added the account to the designated group
@@ -145,7 +136,8 @@ Remove a user from a security group
 -Identity "GG_Standard_Users"
 -Members j.smith`
 
-![]()
+![Remove User from Security Group](../images/remove-group-user.png)
+![Verify Group Member Removal](../images/verify-group-remove.png)
  
 
 - Successfully removed the account from the group
@@ -158,7 +150,7 @@ Display all security groups assigned to a user
 
 **COMMAND**: `Get-ADPrincipalGroupMembership j.smith`
 
-![]()
+![Review Group User Membership](../images/verify-group.png)
 
 
 - Verified group membership assignments
