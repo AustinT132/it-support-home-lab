@@ -19,6 +19,7 @@ The goal of this lab is to strengthen my knowledge of:
 - [**Domain Controller (DC)**: Windows Server 2022](./docs/ad-setup.md)
 - [**Windows Client**: Windows 10](./docs/client-setup.md)
 - [**Group Policy Management**](./docs/group-policy-management.md)
+- [**PowerShell Administration**](./docs/powershell-admin.md)
 - **Virtualization**: VMWare
 - **Domain**: `mydomain.local`
 
